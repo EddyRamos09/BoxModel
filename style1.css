@@ -1,0 +1,46 @@
+.elemento {
+    width: 200px;            /* Ancho del contenido */
+    height: 100px;          /* Alto del contenido */
+    padding: 20px;          /* Espacio interno */
+    border: 5px solid black; /* Bordes */
+    margin: 15px;           /* Espacio externo */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    padding: 20px 0; /* Relleno superior e inferior */
+}
+
+.main-content {
+    display: flex;
+    justify-content: center; /* Centra las tarjetas */
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid #35424a; /* Borde de la tarjeta */
+    border-radius: 5px; /* Esquinas redondeadas */
+    padding: 15px; /* Relleno interno */
+    margin: 15px; /* Margen entre tarjetas */
+    width: 300px; /* Ancho fijo de la tarjeta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0; /* Relleno */
+    background-color: #35424a;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
